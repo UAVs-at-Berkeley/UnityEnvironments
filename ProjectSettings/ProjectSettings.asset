@@ -614,7 +614,7 @@ PlayerSettings:
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
-  apiCompatibilityLevel: 2
+  apiCompatibilityLevel: 3
   cloudProjectId: 9aac76ec-3a18-4a54-a354-98d0864b5675
   projectName: Environments
   organizationId: suneelbelkhale
