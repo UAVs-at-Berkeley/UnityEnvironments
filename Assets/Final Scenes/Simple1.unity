@@ -401,15 +401,18 @@ MonoBehaviour:
   m_Name: (Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   broadcast: 1
-  continuousPlayerActions: []
+  keyContinuousPlayerActions: []
+  axisContinuousPlayerActions: []
   discretePlayerActions:
   - key: 106
+    branchIndex: 0
     value: 0
   - key: 105
+    branchIndex: 0
     value: 1
   - key: 108
+    branchIndex: 0
     value: 2
-  defaultAction: 1
   brain: {fileID: 1816425471}
 --- !u!1 &1091444042
 GameObject:
@@ -867,7 +870,7 @@ Prefab:
     - target: {fileID: 20262607071171058, guid: 5a89d41f6e83a4c16afdd020cf47e4dc,
         type: 2}
       propertyPath: field of view
-      value: 26.991467
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 114375580164158172, guid: 5a89d41f6e83a4c16afdd020cf47e4dc,
         type: 2}

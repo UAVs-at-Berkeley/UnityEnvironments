@@ -666,6 +666,19 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1865798325}
   m_Script: {fileID: 11500000, guid: c676a8ddf5a5f4f64b35e9ed5028679d, type: 3}
+--- !u!1 &1865798327 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1739179400309510, guid: 5a89d41f6e83a4c16afdd020cf47e4dc,
+    type: 2}
+  m_PrefabInternal: {fileID: 1865798325}
+--- !u!45 &1865798328
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1865798327}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 39cace2863926444a9a78daa8ae26413, type: 2}
 --- !u!114 &2144492093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -678,11 +691,13 @@ MonoBehaviour:
   m_Name: (Clone)(Clone)
   m_EditorClassIdentifier: 
   broadcast: 1
-  continuousPlayerActions: []
+  keyContinuousPlayerActions: []
+  axisContinuousPlayerActions: []
   discretePlayerActions:
   - key: 106
+    branchIndex: 0
     value: 0
   - key: 108
+    branchIndex: 0
     value: 2
-  defaultAction: 1
   brain: {fileID: 1865798326}
